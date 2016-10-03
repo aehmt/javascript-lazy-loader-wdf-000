@@ -1,5 +1,6 @@
 feature "Integration Test", js: :true  do
   before(:each) do
+    # visit "http://127.0.0.1:9393/"
     visit "/"
   end
 
